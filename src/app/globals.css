@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --font-body-en: var(--font-inter), Arial, sans-serif;
+  --font-heading-en: var(--font-oswald), var(--font-inter), Arial, sans-serif;
+
+  --font-body-vi: var(--font-be-vietnam-pro), Arial, sans-serif;
+  --font-heading-vi: var(--font-be-vietnam-pro), Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+:lang(en) .font-heading-locale {
+  font-family: var(--font-oswald), var(--font-inter), Arial, sans-serif;
+}
+
+:lang(vi) .font-heading-locale {
+  font-family: var(--font-be-vietnam-pro), Arial, sans-serif;
+}
+
+:lang(en) .font-body-locale {
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+:lang(vi) .font-body-locale {
+  font-family: var(--font-be-vietnam-pro), Arial, sans-serif;
+}
