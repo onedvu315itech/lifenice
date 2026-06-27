@@ -66,7 +66,7 @@ export function AppHeader() {
                             aria-label="LIFENICE home"
                         >
                             <div className="flex size-10 items-center justify-center rounded bg-[#0F2145] text-sm font-black tracking-tight text-white">
-                                LN
+                                LIF.
                             </div>
 
                             <div className="hidden leading-none sm:block">

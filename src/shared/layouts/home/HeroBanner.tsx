@@ -5,8 +5,15 @@ export function HeroBanner() {
     const t = useTranslations("home")
 
     return (
-        <section className="relative overflow-hidden bg-white">
-            <div className="absolute inset-0 bg-[linear-gradient(120deg,_rgba(15,33,69,0.06),_rgba(77,177,255,0.12),_rgba(255,255,255,1))]" />
+        <section className="relative overflow-hidden bg-white bg-cover bg-center bg-no-repeat">
+            <div
+                className="absolute inset-0 scale-105 bg-cover bg-center bg-no-repeat"
+                style={{
+                    backgroundImage: "url('/banner/home.webp')",
+                }}
+            />
+            <div className="absolute inset-0 bg-sky-200/65" />
+            <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(15,33,69,0.25),rgba(77,177,255,0.18),rgba(255,255,255,0.75))]" />
 
             <div className="relative mx-auto grid min-h-[calc(100vh-4rem)] max-w-full items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-10 xl:px-16">
                 <div>
@@ -47,7 +54,7 @@ export function HeroBanner() {
 
                 <div className="relative mx-auto w-full max-w-xl">
                     <div className="rounded border border-[#0F2145]/10 bg-white p-4 shadow-2xl shadow-[#0F2145]/10">
-                        <div className="rounded border border-[#0F2145]/10 bg-[#0F2145] p-8 text-white">
+                        <div className="rounded border border-[#0F2145]/10 bg-[#0F2145] p-6 text-white">
                             <div className="flex min-h-104 flex-col items-center justify-center text-center">
                                 <div className="grid h-32 w-32 place-items-center rounded bg-white text-4xl font-black tracking-tighter text-[#0F2145] sm:h-40 sm:w-40 sm:text-5xl">
                                     LIF.
@@ -64,7 +71,7 @@ export function HeroBanner() {
                         </div>
                     </div>
 
-                    <div className="absolute -bottom-5 left-5 hidden rounded border border-[#0F2145]/10 bg-white px-5 py-4 text-[#0F2145] shadow-lg md:block">
+                    <div className="absolute -bottom-5 -left-5 hidden rounded border border-[#0F2145]/10 bg-white px-5 py-4 text-[#0F2145] shadow-lg md:block">
                         <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#0F2145]/50">
                             {t("heroMentalityLabel")}
                         </p>
@@ -73,7 +80,7 @@ export function HeroBanner() {
                         </p>
                     </div>
 
-                    <div className="absolute -right-2 -top-5 hidden rounded border border-[#0F2145]/10 bg-white px-5 py-4 text-[#0F2145] shadow-lg md:block">
+                    <div className="absolute -right-5 -top-5 hidden rounded border border-[#0F2145]/10 bg-white px-5 py-4 text-[#0F2145] shadow-lg md:block">
                         <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#0F2145]/50">
                             {t("heroStyleLabel")}
                         </p>

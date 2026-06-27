@@ -37,7 +37,7 @@ export function AppFooter() {
                             className="inline-flex items-center gap-3"
                         >
                             <div className="flex size-12 items-center justify-center rounded bg-[#0F2145] text-base font-black tracking-tight text-white">
-                                LN
+                                LIF.
                             </div>
 
                             <div className="leading-none">

@@ -97,5 +97,19 @@
         "galleryItem3Description": "Huy hiệu có ý nghĩa hơn khi tất cả cùng chiến đấu.",
         "galleryItem4Title": "Khoảnh khắc chiến thắng",
         "galleryItem4Description": "Tiếng còi mãn cuộc, màn ăn mừng và ký ức còn lại."
+    },
+    "error": {
+        "eyebrow": "Đã xảy ra lỗi",
+        "title": "Lỗi không mong muốn",
+        "description": "Trang không thể tải chính xác. Vui lòng thử lại hoặc quay về trang chủ.",
+        "digest": "Mã lỗi",
+        "tryAgain": "Thử lại",
+        "backHome": "Về trang chủ"
+    },
+    "notFound": {
+        "eyebrow": "Không tìm thấy trang",
+        "title": "Trang này đã việt vị",
+        "description": "Trang bạn đang tìm kiếm không tồn tại, đã được di chuyển hoặc không còn khả dụng.",
+        "backHome": "Về trang chủ"
     }
 }
